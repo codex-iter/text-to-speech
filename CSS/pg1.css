@@ -1,0 +1,93 @@
+body{
+    background-image: url("../img/bg1.jpg");
+    background-size:cover;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: sans-serif;
+    font-size: 54px;
+    color:white ;
+    text-shadow: 3px 1px rgb(241, 36, 121);
+    text-align: center;
+    letter-spacing: 10px;
+}
+    h6{
+     font-family: sans-serif;
+    font-size: 30px;
+    color:white ;
+    text-shadow: 2px 1px rgb(241, 36, 121);
+    text-align: center;
+    letter-spacing: 8px;
+    margin-top:-90px;
+    }
+#logo
+{
+    margin-top:-80px;
+    margin-left: 40px;
+    border-radius: 15px;
+    box-shadow:10px 10px 60px  rgb(241, 36, 121);
+    
+    
+}
+#soa
+{
+    padding:80px;
+   }
+
+.main-nav
+{
+   float:right;
+   margin-top: -180px;
+   
+
+}
+.main-nav li
+{
+    font-size: 20px;
+    display: inline;
+    margin-right:25px; 
+    text-transform: uppercase;
+
+}
+.main-nav li a{
+    color:blanchedalmond;
+    text-decoration: none;
+}
+.main-nav li a:hover
+{
+    text-decoration: underline;
+    box-shadow: 7px 6px 5px 4px purple;
+
+}
+.change
+{
+    animation:changecodex 1s infinite;
+}
+@keyframes changecodex
+{
+    0%{color: red;}
+    25%{color:blueviolet;}
+    50%{color:yellowgreen;}
+    100%{color:blue;}
+}
+.change1
+{
+    animation:changetext 1s infinite;
+}
+@keyframes changetext
+{
+    0%{color: red;}
+    25%{color:yellow;}
+    50%{color:blue;}
+    
+}
+#soa
+{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+ 
+  
+}

@@ -1,0 +1,138 @@
+body{
+    background-image: url("../img/bg10.png");
+    background-size:cover;
+    margin: 0;
+    padding: 0;
+    }
+ .designation
+ {
+     text-align: center;
+     color:white;
+     text-transform: uppercase;
+     font-size: 25px;
+     text-shadow: 3px 1px red;
+     margin-top: 40px;
+ } 
+ 
+ #btn1
+ {
+margin-top:60px;
+margin-left:615px;
+padding:10px;
+width:180px;
+color:white;
+ }
+ #btn2
+ {
+    margin-top:60px;
+    margin-left:615px;
+    padding:10px;
+width:180px;  
+color:white;
+ }
+
+ #btn3
+ {
+    margin-top:60px;
+    margin-left:615px;  
+    padding:10px;
+width:180px; 
+color:white;
+ }
+ #btn1{
+    width: 250px;
+    font-size:20px;
+    background-color:rgb(245, 43, 43);
+    padding: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    border: 3px solid black;
+    font-family: "sans-serif";
+    border-radius: 10px;
+    text-shadow: 1px 2px rgb(15, 14, 14);
+    transition-property: all;
+    transition-duration: 2s;
+   
+} 
+#btn1:hover
+{
+    
+    box-shadow:0 0 40px white;
+    width:450px;
+    background-color:black;}
+#btn1:disabled{
+    cursor: not-allowed;
+    border: 2px solid gray;
+    background-color: rgb(202, 3, 3);
+}
+#btn2{
+    width: 250px;
+    font-size:20px;
+    background-color:rgb(245, 43, 43);
+    padding: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    border: 3px solid rgb(15, 14, 14);
+    font-family: "sans-serif";
+    border-radius: 10px;
+    text-shadow: 1px 2px red;
+    transition-property: all;
+    transition-duration: 2s;
+} 
+#btn2:hover
+{
+    
+    box-shadow:0 0 40px white;
+    width:450px;
+    background-color:black;}
+#btn2:disabled{
+    cursor: not-allowed;
+    border: 2px solid gray;
+    background-color: rgb(202, 3, 3);
+}
+#btn3{
+    width: 250px;
+    font-size:20px;
+    background-color:rgb(245, 43, 43);
+    padding: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    border: 3px solid rgb(15, 14, 14);
+    font-family: "sans-serif";
+    border-radius: 10px;
+    text-shadow: 1px 2px red;
+    transition-property: all;
+    transition-duration: 2s;
+} 
+#btn3:hover
+{
+    
+    box-shadow:0 0 40px white;
+    width:450px;
+    background-color:black;}
+#btn3:disabled{
+    cursor: not-allowed;
+    border: 2px solid gray;
+    background-color: rgb(202, 3, 3);
+}
+.des
+{
+    animation:changedes 1s infinite;
+}
+@keyframes changedes
+{
+    0%{color: red;}
+   25%{color:rgb(245, 151, 151)}
+    50%{color:white;}
+   
+
+}

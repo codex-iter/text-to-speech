@@ -1,0 +1,39 @@
+body{
+    background-image: url("../img/about.png");
+    
+    background-size:cover;
+    margin: 0;
+    padding: 0;
+}
+
+.boxed h1{
+    text-align: center;
+    text-shadow: 2px 1px #9c4116;
+}
+.boxed 
+{ 
+    text-align: center;
+    width:500px;
+    height:300px;
+    border:1px solid #000;
+    background:linear-gradient(to bottom right,rgb(250, 125, 7),white);
+box-shadow: 5px 5px 5px 5px rgb(250, 125, 7);
+margin-top:180px;
+margin-left: 520px;
+font-size: 24px;
+border-radius: 20px;
+padding: 25px;
+  }
+
+.ts
+{
+    animation:changets 1.2s infinite;
+}
+@keyframes changets
+{
+    0%{color: red;}
+    25%{color:black;}
+    50%{color:blue;}
+    100%{color:rgb(185, 21, 76);}
+
+}

@@ -1,0 +1,76 @@
+body{
+    background-image: url("../img/bg2.jpg");
+    background-size:cover;
+    margin: 0;
+    padding: 0;
+}
+#app-container{
+    width: 800px;
+    margin: auto;
+}
+#app-container h1 {
+    font-family: sans-serif;
+    font-size: 54px;
+    color:white ;
+    text-shadow: 6px 4px red;
+    text-align: center;
+    letter-spacing: 10px;
+}
+#input-container textarea {
+    width: 100%;
+    height: 350px;
+    resize: none;
+    background:linear-gradient(to bottom right,rgb(250, 142, 103),white);
+    box-shadow: 1px 1px 5px black;
+    border: 1px solid white;
+    padding: 25px;
+    border-radius: 10px;
+    font-size: 24px;
+    text-align: center;
+
+}
+#text-input
+{
+    font-weight: bold;
+}
+#control-container{
+    margin: 25px;
+    text-align:center;
+}
+#play-btn {
+    width: 90px;
+    font-size:20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    border: 2px solid black;
+    font-family: "sans-serif";
+    border-radius: 10px;
+    text-shadow: 0 0.9px red;
+    transition-property: all;
+    transition-duration: 2s;
+} 
+#play-btn:hover
+{
+    
+    box-shadow:0 0 40px rgb(202, 3, 3);
+    width:300px;
+    background-color:rgba(202, 3, 3 ,0.6);}
+#play-btn:disabled{
+    cursor: not-allowed;
+    border: 2px solid gray;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+#error-message
+{
+    font-size: 24px;
+    font-weight: bolder;
+    color: red;
+   background-color:rgb(238, 209, 198);
+    padding:10px;
+    border-radius:5px;
+}
