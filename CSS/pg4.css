@@ -136,3 +136,22 @@ color:white;
    
 
 }
+.main-nav {
+    float: right;
+    margin-top: 20px;
+  }
+  .main-nav li {
+    font-size: 20px;
+    display: inline;
+    margin-right: 25px;
+    text-transform: uppercase;
+  }
+  .main-nav li a {
+    color: blanchedalmond;
+    text-decoration: none;
+  }
+  .main-nav li a:hover {
+    text-decoration: underline;
+    box-shadow: 7px 6px 5px 4px purple;
+  }
+  
