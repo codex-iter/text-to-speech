@@ -39,7 +39,7 @@ body {
   }
   .main-nav li a:hover {
     text-decoration: underline;
-    box-shadow: 7px 6px 5px 4px purple;
+    box-shadow: 7px 6px 5px 4px  rgb(250, 125, 7);
   }
   
 

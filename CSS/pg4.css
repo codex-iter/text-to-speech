@@ -139,11 +139,13 @@ color:white;
 .main-nav {
     float: right;
     margin-top: 20px;
+    font-weight: bolder;
+    color:rgb(245, 151, 151);
   }
   .main-nav li {
     font-size: 20px;
     display: inline;
-    margin-right: 25px;
+    margin-right: 20px;
     text-transform: uppercase;
   }
   .main-nav li a {
@@ -152,6 +154,6 @@ color:white;
   }
   .main-nav li a:hover {
     text-decoration: underline;
-    box-shadow: 7px 6px 5px 4px purple;
+    box-shadow: 7px 6px 5px 4px rgb(245, 151, 151);
   }
   
