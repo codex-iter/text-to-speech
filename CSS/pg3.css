@@ -54,7 +54,7 @@ body {
 }
 #play-btn:hover {
   box-shadow: 0 0 40px rgb(202, 3, 3);
-  width: 300px;
+  /* width: 300px; */
   background-color: rgba(202, 3, 3, 0.6);
 }
 #play-btn:disabled {
