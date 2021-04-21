@@ -68,7 +68,7 @@ body {
   background-color: rgba(255, 255, 255, 0.5);
   padding: 10px;
   cursor: pointer;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   letter-spacing: 1px;
   font-weight: 700;
   outline: none;
@@ -81,10 +81,37 @@ body {
 }
 #play-btn-5x:hover {
   box-shadow: 0 0 40px rgb(202, 3, 3);
-  width: 300px;
+  /* width: 300px; */
   background-color: rgba(202, 3, 3, 0.6);
 }
 #play-btn-5x:disabled {
+  cursor: not-allowed;
+  border: 2px solid gray;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+#play-btn-m5x {
+  width: 150px;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  cursor: pointer;
+  /* text-transform: uppercase; */
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  border: 2px solid black;
+  font-family: "sans-serif";
+  border-radius: 10px;
+  text-shadow: 0 0.9px red;
+  transition-property: all;
+  transition-duration: 2s;
+}
+#play-btn-m5x:hover {
+  box-shadow: 0 0 40px rgb(202, 3, 3);
+  /* width: 300px; */
+  background-color: rgba(202, 3, 3, 0.6);
+}
+#play-btn-m5x:disabled {
   cursor: not-allowed;
   border: 2px solid gray;
   background-color: rgba(255, 255, 255, 0.5);
@@ -114,4 +141,58 @@ body {
 .main-nav li a:hover {
   text-decoration: underline;
   box-shadow: 7px 6px 5px 4px purple;
+}
+#lang-btn-hi {
+  width: 150px;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  cursor: pointer;
+  /* text-transform: uppercase; */
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  border: 2px solid black;
+  font-family: "sans-serif";
+  border-radius: 10px;
+  text-shadow: 0 0.9px red;
+  transition-property: all;
+  transition-duration: 2s;
+}
+#lang-btn-hi:hover {
+  box-shadow: 0 0 40px rgb(202, 3, 3);
+  /* width: 300px; */
+  background-color: rgba(202, 3, 3, 0.6);
+}
+#lang-btn-hi:disabled {
+  cursor: not-allowed;
+  border: 2px solid gray;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+#lang-btn-fr {
+  width: 150px;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  cursor: pointer;
+  /* text-transform: uppercase; */
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  border: 2px solid black;
+  font-family: "sans-serif";
+  border-radius: 10px;
+  text-shadow: 0 0.9px red;
+  transition-property: all;
+  transition-duration: 2s;
+}
+#lang-btn-fr:hover {
+  box-shadow: 0 0 40px rgb(202, 3, 3);
+  /* width: 300px; */
+  background-color: rgba(202, 3, 3, 0.6);
+}
+#lang-btn-fr:disabled {
+  cursor: not-allowed;
+  border: 2px solid gray;
+  background-color: rgba(255, 255, 255, 0.5);
 }
