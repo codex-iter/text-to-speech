@@ -7,25 +7,28 @@ body {
 }
 
 .boxed h1 {
+  padding: 0;
   text-align: center;
   text-shadow: 2px 1px #9c4116;
 }
 .boxed {
   text-align: center;
-  width: 500px;
-  height: 300px;
+  width: 50%;
+  height: 30%;
   border: 1px solid #000;
   background: linear-gradient(to bottom right, rgb(250, 125, 7), white);
   box-shadow: 5px 5px 5px 5px rgb(250, 125, 7);
-  margin-top: 180px;
-  margin-left: 520px;
-  font-size: 24px;
+  margin-top: 150px;
+  margin-left: 10%;
+  margin-right:10%;
+  font-size: 150%;
   border-radius: 20px;
   padding: 25px;
 }
 .main-nav {
     float: right;
-    margin-top: -110px;
+    margin-top: -120px;
+    /* padding:10%; */
   }
   .main-nav li {
     font-size: 20px;
