@@ -79,18 +79,35 @@ font-weight: bolder;
   border-radius: 10px;
   text-shadow: 0 0.9px red;
   transition-property: all;
-  transition-duration: 2s;
+  transition-duration: .5s;
   align-items: center;
 } 
 #speakBtn:hover
 {
   
   box-shadow:0 0 40px rgb(202, 3, 3);
-  width:300px;
   background-color:rgba(202, 3, 3 ,0.6);}
 #speakBtn:disabled{
   cursor: not-allowed;
   border: 2px solid gray;
   background-color: rgba(255, 255, 255, 0.5);
 }
-
+.main-nav {
+  float: right;
+  margin-top: 40px;
+  /* padding:10%; */
+}
+.main-nav li {
+  font-size: 20px;
+  display: inline;
+  margin-right: 25px;
+  text-transform: uppercase;
+}
+.main-nav li a {
+  color: blanchedalmond;
+  text-decoration: none;
+}
+.main-nav li a:hover {
+  text-decoration: underline;
+  box-shadow: 7px 6px 5px 4px  rgb(250, 125, 7);
+}
