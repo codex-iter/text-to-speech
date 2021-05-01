@@ -10,8 +10,10 @@ body {
   padding: 0;
   text-align: center;
   text-shadow: 2px 1px #9c4116;
+  
 }
 .boxed {
+  
   text-align: center;
   width: 50%;
   height: 30%;
@@ -21,6 +23,7 @@ body {
   margin-top: 150px;
   margin-left: 10%;
   margin-right:10%;
+  
   font-size: 150%;
   border-radius: 20px;
   padding: 25px;

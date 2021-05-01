@@ -3,6 +3,10 @@
   box-sizing: border-box;
   padding: 0px;
 }
+.desc{
+    text-align: center;
+    font-size: 30px;
+}
 body {
   font-size: 20px;
   overflow-x: hidden;
@@ -110,6 +114,19 @@ h1 {
   float: left;
   margin-top: 20px;
 }
+#txt {
+    height: 150px;
+    width: 150px;
+    float:left;
+    margin-top: 200px;
+}
+#spch {
+    height: 200px;
+    width: auto;
+    float: right;
+    /* margin-left: 600px; */
+    margin-top: 500px;
+}
 
 .main-content-header {
   width: 1180px;
@@ -174,6 +191,7 @@ h1 {
 .main-nav {
   float: right;
   margin-top: 40px;
+  height: 50px;
   /* padding:10%; */
 }
 .main-nav li {
