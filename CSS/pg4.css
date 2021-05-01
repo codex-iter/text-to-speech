@@ -1,5 +1,5 @@
 body{
-    background-image: url("../img/bg10.png");
+    background-image: url("../img/hi.jpg");
     background-size:cover;
     margin: 0;
     padding: 0;
@@ -154,6 +154,6 @@ color:white;
   }
   .main-nav li a:hover {
     text-decoration: underline;
-    box-shadow: 7px 6px 5px 4px rgb(245, 151, 151);
+    box-shadow: 7px 6px 5px 4px rgb(39, 1, 1);
   }
   

@@ -1,5 +1,5 @@
 body {
-  background-image: url("../img/about.png");
+  background-image: url("../img/bg.jpg");
 
   background-size: cover;
   margin: 0;
@@ -16,8 +16,8 @@ body {
   width: 50%;
   height: 30%;
   border: 1px solid #000;
-  background: linear-gradient(to bottom right, rgb(250, 125, 7), white);
-  box-shadow: 5px 5px 5px 5px rgb(250, 125, 7);
+  background: linear-gradient(to bottom right, rgb(206, 204, 204), rgb(187, 186, 186));
+  box-shadow: 5px 5px 5px 5px rgb(66, 1, 1);
   margin-top: 150px;
   margin-left: 10%;
   margin-right:10%;
@@ -42,7 +42,7 @@ body {
   }
   .main-nav li a:hover {
     text-decoration: underline;
-    box-shadow: 7px 6px 5px 4px  rgb(250, 125, 7);
+    box-shadow: 7px 6px 5px 4px   rgb(199, 53, 33);
   }
   
 
@@ -54,7 +54,7 @@ body {
     color: red;
   }
   25% {
-    color: black;
+    color: rgb(65, 62, 62);
   }
   50% {
     color: blue;
