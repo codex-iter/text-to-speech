@@ -1,71 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>project</title>
-    <link rel="stylesheet" href="CSS/pg1.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
-                integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-                crossorigin="anonymous">
-  </head>
-  <body>
-     <header>
-            <nav>
-              <img id="logo" src="img/codex.png">
-              <img id="logo" src="img/l.png">
-                <div id="sideBarNav" class="sidenav">
-                   
-                  
-                    <a href="main.html">Home</a>
-                    <a href="about.html">About</a>
-                    <a href="project.html">Project</a>
-                    <a href="team.html">Team</a>
-                   
-                    <div class="icon">
-                      <i class="fas fa-times"></i> 
-             </div>
-             </div>
-             <div class="icon">
-              <i class="fas fa-bars"></i> 
-             </div>
-            </nav>
-            <div class="main-content-header">
-              <h1><span class="change">CODEX PROJECT</span></h1>
-              
-               
-                
-                <h6><span class="change1">"TEXT TO SPEECH"</span></h6>      
-        </div> 
-        </header>
-        <script>
-          let closeBtn = document.querySelector('.fa-times');
-let openBtn = document.querySelector('.fa-bars');
-let sideBarMenu = document.querySelector('#sideBarNav')
-// Add event listener to open icon 
-openBtn.addEventListener('click', ()=>{
-sideBarMenu.style.width ="250px";
-})
-// Add event listener to close icon 
-closeBtn.addEventListener('click', ()=>{
-  sideBarMenu.style.width ="0";
-})
-        </script>
-    </head>
-    
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>project</title>
+  <link rel="stylesheet" href="CSS/pg1.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <img id="logo" src="img/codex.png">
+      <img id="logo" src="img/l.png">
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <ul class="main-nav">
         
-    </body>
-    </html>
-    
-    
+        <li><a href="main.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="project.html">Project</a></li>
+        <li><a href="team.html">Team</a></li>
+      </ul>
+      <div id="sideBarNav" class="sidenav">
 
 
+        <a href="main.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="project.html">Project</a>
+        <a href="team.html">Team</a>
+
+        <div class="icon">
+          <i class="fas fa-times"></i>
+        </div>
+      </div>
+      <div class="icon">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+    <div class="main-content-header">
+      <h1><span class="change1">"TEXT TO SPEECH"</span></h1>
+    </div>
+  </header>
+  <script>
+    let closeBtn = document.querySelector('.fa-times');
+    let openBtn = document.querySelector('.fa-bars');
+    let sideBarMenu = document.querySelector('#sideBarNav')
+    // Add event listener to open icon 
+    openBtn.addEventListener('click', () => {
+      sideBarMenu.style.width = "250px";
+    })
+    // Add event listener to close icon 
+    closeBtn.addEventListener('click', () => {
+      sideBarMenu.style.width = "0";
+    })
+  </script>
+  </head>
 
 
+</body>
 
-
-
-
+</html>
